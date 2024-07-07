@@ -1,0 +1,58 @@
+Outlier Detection Report
+=======================
+
+Methodology:
+1. Dataset Preparation: Loaded and combined datasets, added geospatial coordinates.
+2. Neighbour Identification: Identified neighbours within a 1 km radius using distance matrix.
+3. Outlier Score Calculation: Calculated outlier scores for each party based on vote deviation from neighbours.
+4. Sorting and Reporting: Sorted the dataset by outlier scores and identified top outliers.
+
+Top 3 Outliers:
+Polling Unit: 01-02-12-002 - ABA TOWN HALL - ABA TOWN HALL II
+APC Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-15-06-035 - UMUOKOO COMMUNITY HALL
+LP Outlier Score: 46.0
+Neighbours: 01-11-07-023
+
+Polling Unit: 01-15-06-035 - UMUOKOO COMMUNITY HALL
+PDP Outlier Score: 10.0
+Neighbours: 01-11-07-023
+
+Polling Unit: 01-02-12-002 - ABA TOWN HALL - ABA TOWN HALL II
+NNPP Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-01-05-026 - ST EUGENE PRIMARY SCHOOL IX
+APC Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-11-07-023 - UMUIGWE COUNCIL HALL
+LP Outlier Score: 46.0
+Neighbours: 01-15-06-035
+
+Polling Unit: 01-11-07-023 - UMUIGWE COUNCIL HALL
+PDP Outlier Score: 10.0
+Neighbours: 01-15-06-035
+
+Polling Unit: 01-01-05-026 - ST EUGENE PRIMARY SCHOOL IX
+NNPP Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-15-05-053 - SCHOOL OF MIDWIFERY FMC
+APC Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-03-07-005 - NDI OKPO II/UNITY HALL. NDI OKPO
+LP Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-03-07-005 - NDI OKPO II/UNITY HALL. NDI OKPO
+PDP Outlier Score: 0.0
+Neighbours: 
+
+Polling Unit: 01-15-05-053 - SCHOOL OF MIDWIFERY FMC
+NNPP Outlier Score: 0.0
+Neighbours: 
+
